@@ -15,7 +15,7 @@ body {
   margin-top: 0.00000000000121px;
 }
 
-/*-- Owner: Gowsigan Sritharan
+/*-- Owner: Hyerin Mun
      Date: November 24, 2020
      Description: This code underlines the Subscribe heading for the newsletter subscription form. Also aligns text to center, set font to Candara and moved to margin top by 0.00000000000121px. Color is set to #003366. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp.*/
 
@@ -31,7 +31,7 @@ body {
   padding: 19.5px;
   background-color: #f1f1f1;
 }
-/*-- Owner: Gowsigan Sritharan
+/*-- Owner: Hyerin Mun
      Date: November 25, 2020
      Description: This code sets the padding to 19.5px and the background color is set to #f1f1f1. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */
 	
@@ -50,7 +50,7 @@ body {
 .input[type=checkbox] {
   margin-top: 16.2px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 23, 2020
      Description: This code moves the element top margin by 16.2px. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */ 
 	
@@ -81,7 +81,7 @@ body {
 .headcolor1929 {
   margin-top:120px;
 }
-/*-- Owner: Gowsigan Sritharan 
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code moves the element by 120px margin-top. */
 
@@ -111,7 +111,7 @@ body {
 .move100 {
   margin-top: 0.000001px;
 }
-/*-- Owner: Gowsigan Sritharan  
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code is used for unused div classes and to help better resize and reposition elements in the webpage.  */
 
@@ -119,7 +119,7 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/*-- Owner: Gowsigan Sritharan  
+/*-- Owner: Hyerin Mun  
      Date: November 19, 2020
      Description: This code is used to properly move elements (by top margin of 50px and bottom margin of 50px).  */
 
@@ -147,7 +147,7 @@ body {
   margin-left: 600px;
   margin-top: 130px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 600px, 600px margin left and moved 130px margin-top. */
 
@@ -175,7 +175,7 @@ body {
   margin-left: 500px;
   margin-top: 80px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 500px, 500px margin left and moved 80px margin-top.  */
 
@@ -297,7 +297,7 @@ body {
   margin-left: 570px;
   margin-top: 71px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 570px, 570px margin left and moved 71px margin-top.  */
 
@@ -536,7 +536,7 @@ body {
   background-image: none;
   z-index: 4;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: This code is for the contact messages in the header section (beside the logo on website). Z-index of 4 is given to override other elements, no background-image is set, position is set to static, and moved by a margin top of -280px and left of 1020px. */
 
@@ -587,7 +587,7 @@ body {
 .center1000 {
   margin-top: 80px;
 }
-/*-- Owner: Samir Imamovic
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Moves element by 80px top. */
 
@@ -758,7 +758,7 @@ body {
   text-align: center;
   border:1px solid;
 }
-/*  Owner: Gowsigan Sritharan 
+/*  Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Sets text color to #003333, aligns text to center and font-family to Candara. Adds a 1px black solid border.	 */
 
@@ -794,7 +794,7 @@ body {
   margin-right: 150px;
   margin-left: 80px;
 }
-/*-- Owner: Gowsigan Sritharan 
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 80px left, 150px margin left and a 1px black solid border is set. */
 
@@ -839,7 +839,7 @@ body {
   margin-left: 300px;
   margin-top: 50px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 300px margin left and margin-top of 50px and a 1px black solid border is set. */
 
@@ -849,7 +849,7 @@ body {
   margin-top: 50px;
   margin-right: 80px;
 }
-/*-- Owner: Gowsigan Sritharan 
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 450px margin left, top by 50px and right by 80px and a 1px black solid border is set. */
 
@@ -895,7 +895,7 @@ body {
   border: 1px solid;
   margin-left: 448px;
 }
-/*-- Owner: Gowsigan Sritharan 
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 448px margin left and a 1px black solid border is set. */
 
@@ -923,7 +923,7 @@ body {
   margin-left: 251px;
   margin-right: 70px;
 }
-/*-- Owner: Samir Imamovic
+/*-- Owner: Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 251px margin left and 70px margin right and a 1px black solid border is set. */
 
@@ -973,7 +973,7 @@ body {
 .hiringheading {
   margin-top:20px;
 }
-/*-- Owner: Jeonghyeok Seo
+/*-- Owner:Hyerin Mun
      Date: November 19, 2020
      Description: Element is moved by 20px margin left. */
   
