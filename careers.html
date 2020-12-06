@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This code is setting the page as an HTML document type -->
+
+<html lang="en">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Setting the HTML document page language as English -->
+
+<head>
+	
+<meta charset = "utf-8" >
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Setting character set for the website page to utf-8 -->
+
+<link rel="stylesheet" href="style.css">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Linking to the external CSS styles page, called "style". -->
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Link to another external CSS stlying page of Font-Awesome 4, the website icons are used from this website -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Setting the Response Design for the website -->
+	
+<script src="groupthree.js"></script>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Link to external Javascript file page -->
+
+<base href="https://GowsiganS.github.io/a3g3web.github.io/">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Setting the base reference location for the website (repository), contains all HTML, CSS, Javascript and images for the website -->
+
+<title> Careers & Job Opportunities </title> 
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Setting the title for the current page as "Careers & Job Opportunities." -->
+
+</head>
+<body>
+
+
+<div class = "entireheader">
+<header>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This code contains the entire header for the website. This includes the contact information, google searchbar, navigation bar links, and logo.-->
+
+<div class = "header">
+<img src="logo.jpg" alt="Logo" width="300" height="150"></div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: The logo for the company was created using the website TailorBrands. Website used is referenced here, https://studio.tailorbrands.com/brands/free. -->
+
+<div class = "navbar">
+<ul>
+  <li class = "nav"><a href="index.html"><i class="fa fa-fw fa-home"></i> HOMEPAGE</a></li>
+  <li class = "nav"><a href="about.html"><i class="fa fa-book"></i> ABOUT US</a></li>
+  <li class = "nav"><a href="news.html"><i class="fa fa-newspaper-o"></i> NEWS</a></li>	
+  <li class = "nav"><a href="service.html"><i class="fa fa-wrench"></i> SOLUTIONS & SERVICES</a></li>
+  <li class = "nav"><a href="members.html"><i class="fa fa-users"></i> MEET THE TEAM</a></li>
+  <li class = "nav"><a href="community.html"><i class="fa fa-universal-access"></i> COMMUNITY & EVENTS</a></li>
+  <li class = "nav"><a href="careers.html"><i class="fa fa-handshake-o"></i> CAREER & JOBS</a></li>
+  <li class = "nav"><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> HELP & CONTACT</a></li></ul></div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This set of code contains the icons and all the navigation bar links to the different sites in the webpage-->
+
+<div class = "search">
+<div class="gcse-search">
+<script async src="https://cse.google.com/cse.js?cx=c713ab131f87ae8df"></script>
+</div>
+</div>	
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This particular section of the code contains the google searchbar which is located within the header. The code was taken from the Google developer's website, 
+https://developers.google.com/custom-search/docs/tutorial/customizingresults. -->
+
+</header>
+</div>
+
+<div class = "contact">
+<p class ="bold"><i class="fa fa-phone"></i>: + (111) 222 3333</p>
+<p class ="bold"><i class="fa fa-map-marker"></i>: Toronto, Ontario, Canada</p>
+<p class ="bold"><i class="fa fa-address-card-o"></i><a href="mailto:Gowsigan.Sritharan@flemingcollege.ca">: gsrithar@flemingcollege.ca </a></p>
+<p class ="bold"><i class = "fa fa-linkedin"></i><a href="https://www.linkedin.com/in/gowsigan-s-2121a2128/" target= "_blank">: Linkedin Account </a></p>
+</div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This section of the code contains the contact information, which is to be located within the header. It is place outside the header tag for resizing purposes.-->
+	
+<div class = "center1000">
+<h2 class = "headcolor9106">Careers & Job Opportunities</h2>
+<p class = "textcolorqq12">Interested in a career or submitting an application with our team? T3 GIS has rewarding opportunities for creative and hard working individuals that want to work in a friendly environment which highly values integrity, quality of work, teamwork and enthusiam. Here you can develop your future and work with a great group of people.  Just complete the form following this message to apply and include the job title, email & telephone number and full name and attach the following documents - resume, minimum 3 references and cover letter explaining your suitability. We will gladly review and consider your application!</p>
+</div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This particular section of the code contains the career & job opportunities header title and the supplementary text associated with it. Moreover down below is the code for the career application form, which was taken and manipulated from CodePen. Referenced from https://codepen.io/getform/pen/yLywEWy -->
+
+<div class = "messages22">
+    <div class="move100">
+        <h1 class = "headcoloryy">Career Application Form</h1>
+        <form accept-charset="UTF-8" action= "https://getform.io/f/t3gis" method="POST" enctype="multipart/form-data" target="_blank">
+            <div class="move100">
+                <label for="exampleInputName">Full Name: </label>
+                <input type="text" name="name" id="exampleInputName" placeholder="Enter your first & last name.">
+            </div>
+            <div class="move100">
+                <label for="exampleInputEmail1" >Email Address: </label>
+                <input type="email" name="email" id="exampleInputEmail1" placeholder="Enter your email address.">
+            </div>
+
+            <div class="move100">
+                <label for="example-tel-input" >Telephone #: </label>
+                    <input name="tel" type="tel" placeholder="1-(555)-555-5555" id="example-tel-input">
+            </div>
+            <div class="move100">
+              <label class="move100">Upload resume/CV & cover letter in a single file (pdf or word doc):</label>
+              <input type="file" name="file">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+	</div>
+
+
+<div class ="center1000">
+<h2 class = "headcolor9106www">Job Position</h2>
+<div class = "border1">
+<p class = "textcolorx"> As our company grows, we plan to expand our team to add more versatile expertise & knowledge. For this, we have some newly added positions we hire for on a short & long-term basis. If you believe that you have the right skillset and attitude in any of these positions, then shoot us a message and we can get connected. Here are a few examples of job titles at our organization.</p>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This section of the code contains the heading "Job Position" which lists the various job titles for the company. -->
+
+<ul class = "textcolor">
+<li>GIS Applications Support Specialist</li>
+<li>Geomatics/Geopsatial Analyst</li>
+<li>GIS Developer & Programmer</li>
+<li>Information Technology Specialist</li>
+<li>GIS Technician/Technologist</li>
+<li>LIDAR/Remote Sensing Analyst</li>
+<li>GIS Database Manager</li>
+<li>Cartographer</li> </ul></div>
+</div>
+
+
+<div class = "move100">
+<img class = "move1001" src="applications.jpg" alt="GIS Careers" width="600" height="300">
+</div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: Image sourced from: https://miningeology.blogspot.com/2015/05/careers-in-gis.html -->
+
+
+<div class = "hiringheading">
+<h2 class = "headcolor9106lll">GIS Hiring Resources</h2>
+<div class = "border1">
+<p class = "textcolorx"> As you may know that finding a job can prove to be a challenging task and it is no different in the GIS industry and we want to help you out by sharing some useful GIS related hiring resources shared by our team. These resources get updated occasionally by our team members, with more being added. All the best in your job search and career! </p>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This part of the code contains the "GIS Hiring Resources" section and the supplementary text associated with it. Moreover, it also contains the different website links for each resource.  -->
+
+	
+<ul class = "textcolor">
+  <li><a href="https://canadiangis.com/employment.php">Canadian GIS Employment</a></li>
+  <li><a href="https://www.gojobs.gov.on.ca/Search.aspx">Ontario Government Job Search</a></li>
+  <li><a href="http://locationtechjobs.com/">Location Technology Jobs</a></li>
+  <li><a href="http://www.jdbarnes.com/careers.html">J.D Barnes Ltd.</a></li>
+  <li><a href="https://www.canada.ca/en/services/jobs/opportunities/government.html">Canadian Government Job Opportunities</a></li>
+  <li><a href="https://www.gislounge.com/">GIS Lounge</a></li>
+  <li><a href="https://gisjobs.ca/">Canadian GIS Jobs</a></li>
+  <li><a href="https://www.ontariomunicipaljobs.com/">Ontario Municipal Jobs</a></li>
+  <li><a href="https://vanguard-mentor-program-urisa.hub.arcgis.com/">URISA Mentoring Network</a></li>
+  <li><a href="https://www.gjc.org/">The GIS Jobs Clearinghouse</a></li>
+  <li><a href="https://www.mygisjobs.com/international">My GIS Jobs - International</a></li>
+</ul></div>
+</div>
+
+<div class = "move100">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This section of the code contains the footer for the entire website. This includes the navigation bar links (and icons), thank you message, logo and contact information. -->
+
+<footer>
+	
+<div class = "navbar"><ul>
+  <li class = "nav"><a href="index.html"><i class="fa fa-fw fa-home"></i> HOMEPAGE</a></li>
+  <li class = "nav"><a href="about.html"><i class="fa fa-book"></i> ABOUT US</a></li>
+  <li class = "nav"><a href="news.html"><i class="fa fa-newspaper-o"></i> NEWS</a></li>	
+  <li class = "nav"><a href="service.html"><i class="fa fa-wrench"></i> SOLUTIONS & SERVICES</a></li>
+  <li class = "nav"><a href="members.html"><i class="fa fa-users"></i> MEET THE TEAM</a></li>
+  <li class = "nav"><a href="community.html"><i class="fa fa-universal-access"></i> COMMUNITY & EVENTS</a></li>
+  <li class = "nav"><a href="careers.html"><i class="fa fa-handshake-o"></i> CAREER & JOBS</a></li>
+  <li class = "nav"><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> HELP & CONTACT</a></li>
+</ul></div>
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This section contains the navigation bar links -->
+
+<div class = "header">
+<img src="logo.jpg" alt="Logo" width="300" height="150">
+<!-- Owner: Gowsigan Sritharan
+     Date: November 19, 2020
+     Description: This section contains the same logo image as used in the header. Website used is referenced here, https://studio.tailorbrands.com/brands/free. -->
+
+<p class = "footword">THANK YOU FOR VISITING OUR WEBSITE!</p>
+<pre class = "footword"><i class="fa fa-phone"></i> + (111) 222 3333              <i class="fa fa-address-card-o"></i><a href="mailto:Gowsigan.Sritharan@flemingcollege.ca"> Gowsigan.Sritharan@flemingcollege.ca </a>                         <i class="fa fa-map-marker"></i> Toronto, Ontario Canada                 <i class = "fa fa-linkedin"></i><a href="https://www.linkedin.com/in/gowsigan-s-2121a2128/" target= "_blank"> Linkedin Account </a> </pre>
+</div>
+
+</footer>
+</div>
+
+
+</body>
+</html>
+

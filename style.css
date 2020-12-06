@@ -1,0 +1,1118 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: For the body tag, sets the background image, no repeats and to cover the entire body section for each page.  */
+
+
+.Subscribe1 {
+  text-align: center;
+  font-family: Candara;
+  color: #003366;
+  margin-top: 0.00000000000121px;
+}
+
+/*-- Owner: Gowsigan Sritharan
+     Date: November 24, 2020
+     Description: This code underlines the Subscribe heading for the newsletter subscription form. Also aligns text to center, set font to Candara and moved to margin top by 0.00000000000121px. Color is set to #003366. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp.*/
+
+.form {
+  border: 3px solid #f1f1f1;
+  font-family: Candara;
+}
+/*-- Owner: Gowsigan Sritharan
+     Date: November 24, 2020
+     Description: This code contains the border for the form which is set to 3px solid and color to #f1f1f1. Font-family set to Candara. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp.*/
+	
+.container {
+  padding: 19.5px;
+  background-color: #f1f1f1;
+}
+/*-- Owner: Gowsigan Sritharan
+     Date: November 25, 2020
+     Description: This code sets the padding to 19.5px and the background color is set to #f1f1f1. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */
+	
+.input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*-- Owner: Gowsigan Sritharan
+     Date: November 21, 2020
+     Description: This code sets the width of the form elements to 100%, padding by 12px, set a margin of 8px, display of inline block, solid #ccc 1px border and sets the box-sizing portion to border-box. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */
+	
+.input[type=checkbox] {
+  margin-top: 16.2px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 23, 2020
+     Description: This code moves the element top margin by 16.2px. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */ 
+	
+.input[type=submit] {
+  background-color: #4CAF50;
+  color:skyblue;
+  border: none;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 22, 2020
+     Description: This code sets the background color to #4CAF50, sets color to skyblue and no border set. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */
+
+.input[type=submit]:hover {
+  opacity: 0.8;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 22, 2020
+     Description: This code sets the opacity to 0.8 on the submit button. Referenced from W3Schools - https://www.w3schools.com/howto/howto_css_newsletter.asp. */
+
+.entireheader {
+  position: static;
+  z-index: 1;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: This gives the class a z-index of 1 and a static position. This is done to overlay one image over another (take precedence). */
+
+.headcolor1929 {
+  margin-top:120px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code moves the element by 120px margin-top. */
+
+.move898 {
+  margin-top:94px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code moves the element by 94px margin-top. */
+
+.headcolor1939 {
+  margin-top:50.05px;
+}
+/*-- Owner: Gowsigan Sritharan  
+     Date: November 19, 2020
+     Description: This code moves the element by 50px margin-top. */
+
+.border1{
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);  
+  margin-bottom: 50px;
+}
+/*-- Owner: Jeonghyeok Seo 
+     Date: November 19, 2020
+     Description: This code sets a border around the class element, allowing spacing by 50px (margin-bottom) and inlcuding the background image of a skyblue-powderblue linear gradient. The border size is set at 1px and solid. */
+
+.move100 {
+  margin-top: 0.000001px;
+}
+/*-- Owner: Gowsigan Sritharan  
+     Date: November 19, 2020
+     Description: This code is used for unused div classes and to help better resize and reposition elements in the webpage.  */
+
+.move100pp {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*-- Owner: Gowsigan Sritharan  
+     Date: November 19, 2020
+     Description: This code is used to properly move elements (by top margin of 50px and bottom margin of 50px).  */
+
+.move600 {
+  margin-top: 30px;
+}
+/*-- Owner: Gowsigan Sritharan  
+     Date: November 19, 2020
+     Description: This code is used to properly move elements (by top margin of 30px).  */
+
+.move800 {
+  margin-top: 70px;
+}
+/*-- Owner: Gowsigan Sritharan  
+     Date: November 19, 2020
+     Description: This code is used to resize and move elements (by top margin of 70px).  */
+
+.headcolor0106kop1 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 600px;
+  margin-left: 600px;
+  margin-top: 130px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 600px, 600px margin left and moved 130px margin-top. */
+
+.headcolor0106kop2 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 530px;
+  margin-left: 530px;
+  margin-top: 95px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 530px, 530px margin left and moved 95px margin-top.  */
+
+.headcolor0106xxx000 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 80px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 500px, 500px margin left and moved 80px margin-top.  */
+
+.headcolor0106xxx0001 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 490px;
+  margin-left: 490px;
+  margin-top: 80px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 490px, 490px margin left and moved 80px margin-top.  */
+
+.headcolor0106xxx998 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 130px;
+}
+/*-- Owner: Jeonghyeok Seo 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 130px margin-top.  */
+
+.headcolor0106xxx {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 70px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 70px margin-top.  */
+
+.move10011 {
+  border: 1px solid;
+  margin-left: 240px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code moves the element by left margin of 240px, top by 50px, right by 80px and sets a 1px solid black border.  */
+
+.headcolor9106tth {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 520px;
+  margin-left: 520px;
+  margin-top: 90px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 520px, 520px margin left and moved 90px margin-top.  */
+
+.headcolor9106www {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 585px;
+  margin-left: 585px;
+  margin-top: 70px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 585px, 585px margin left and moved 70px margin-top.  */
+
+.headcolor9106jjj {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 615px;
+  margin-left: 615px;
+  margin-top: 70px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 615px, 615px margin left and moved 70px margin-top.  */
+
+.headcolor9106yyy {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 430px;
+  margin-left: 430px;
+  margin-top: 70px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 430px, 430px margin left and moved 70px margin-top.  */
+
+.headcolor9106rrr {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 570px;
+  margin-left: 570px;
+  margin-top: 71px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 570px, 570px margin left and moved 71px margin-top.  */
+
+.headcolor9106sss {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 385px;
+  margin-left: 385px;
+  margin-top: 72px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 385px, 385px margin left and moved 72px margin-top.  */
+
+.headcolor9106lll {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 95px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 95px margin-top.  */
+
+.headcolor9106ddd {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 620px;
+  margin-left: 620px;
+  margin-top: 150px;
+}
+/*-- Owner: Hyerin Mun 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 620px, 620px margin left and moved 150px margin-top.  */
+
+.headcolor9106eee {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 110px; 
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 110px margin-top.  */
+
+.headcolor9106bbb {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 72px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 72px margin-top.  */
+
+.headcolor9106xx {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 520px;
+  margin-left: 520px;
+  margin-bottom: 50px;
+  margin-top: 130px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 520px, 520px margin left, 50px margin bottom and moved 130px margin-top.  */
+
+
+.headcolor9106xx1 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 980px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the headers on the Team Members page, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 980px. -- */
+
+.headcolor9106xx2 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 970px;
+  margin-top: 60px;  
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the headers on the Team Members page, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 970px and top margin 60px.  */
+
+.headcolor9106xx3 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 950px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: This code is used for the headers on the Team Members page, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 950px.  */
+
+.headcolor9106xx4 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:980px;
+  margin-top: 60px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the headers on the Team Members page, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 980px and 60px margin-top.  */
+
+.headcolor91061 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 565px;
+  margin-left: 565px;
+  margin-top: 73px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 565px, 565px margin left and moved 73px margin-top.  */
+
+.headcolor01061 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 465px;
+  margin-left: 465px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for resizing and add features to the element, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right & left of 465px.  */
+
+.headcolor01062 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used fo adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 500px, 500px margin left and moved 50px margin-top.  */
+
+.move656{ 
+  border: 1px solid;
+  margin-left: 50px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code moves the element by margin-left of 50px and sets a border of 1px solid black. */
+
+.headcolor009 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-left: 435px;
+  margin-right: 435px;
+  margin-top: 20px;
+}
+/*  Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 435px, 435px margin left and moved 20px margin-top. 	 */
+
+.search {
+  border: 1px solid;
+  margin-right: 1000px;
+  position: static;
+  z-index: 3;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is for the google searchbar. An z index of 3 is set to override other elements with a lower z value. Position is set to static, border is set to 1px solid black and is moved by 1000px margin-right. */
+
+
+.bold {
+  font-weight: bold;
+  font-family: Cardana;
+  color: black;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code adds the text-styling to the class, setting the color to black, font-family to Candara and the weight set to bold. */
+
+.footword {
+  font-family: Cardana;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Used to set the font-size to 18px, family to Candara and weight set to bold. */
+
+.contact{
+  margin-top: -280px;
+  margin-left: 1020px;
+  position: static;
+  background-image: none;
+  z-index: 4;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: This code is for the contact messages in the header section (beside the logo on website). Z-index of 4 is given to override other elements, no background-image is set, position is set to static, and moved by a margin top of -280px and left of 1020px. */
+
+.header {
+  background-image: url("back2.jpg");
+  text-align: center;
+  border: 1px solid;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: This code is for the header which includes a 1px black solid border, text is all aligned to the center, and a background image is used. */
+
+.navbar {
+  background-color: cadetblue;
+  overflow: auto;
+  border: 1px solid;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This section is for the navbar which sets a background color to cadetblue, 1px solid black border and overflow is set to auto. */
+
+.nav {
+  border: 1px solid;
+  display: inline;
+  font-family: Candara;
+  text-align: left;
+  padding: 5px 10px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This section is for the navbar links, 1px solid black border and display is set to inline, text-align is set to left, padding is set to 5px 10px. Font family is set to Candara.  */
+
+.nav:hover {
+  background-color: lightblue;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This section of codes allows a lighblue color, when the user hovers over the navigation links. */
+
+.center3000 {
+  margin-top: 177px;
+  text-align: center;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Moves element by 177px top and aligns to center. */
+
+.center1000 {
+  margin-top: 80px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by 80px top. */
+
+.contimage {
+  margin-left: 800px;
+  margin-bottom: 80px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by 800px left and 80px bottom. */
+
+.contimage1 {
+  margin-left: 800px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Moves element by 800px left. */
+
+.messages {
+  margin-top: -400px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:800px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by margin-right of 800px, background image of linear-gradient skyblue-powderblue, top margin of -400px and a 1px black solid border. */
+
+.messages4 {
+  margin-top: 70px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:700px;
+ }
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by margin-right of 700px, background image of linear-gradient skyblue-powderblue, top margin of 70px and a 1px black solid border. */
+
+.messages11 {
+  margin-top: -170px;
+  margin-left: 390px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+ }
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by margin-right of 390px, background image of linear-gradient skyblue-powderblue, top margin of -170px and a 1px black solid border. */
+
+.messages5 {
+  margin-top: -470px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-left: 800px;
+  margin-bottom: 150px;
+ }
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Moves element by margin-right of 800px, background image of linear-gradient skyblue-powderblue, top margin of -470px and bottom margin of 150px and a 1px black solid border. */
+
+.messages1 {
+  margin-top: -200px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-left: 800px;
+  font-family: Cardana;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Moves element by margin-right of 800px, background image of linear-gradient skyblue-powderblue, top margin of -200px and a 1px black solid border. */
+
+.messages2 {
+  margin-left: 450px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:450px;
+  font-family: Cardana;
+  margin-top: 70px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves element by margin-right & left of 450px, background image of linear-gradient skyblue-powderblue, top margin of 70px and a 1px black solid border. */
+
+.messages22 {
+  margin-left: 370px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:370px;
+  font-family: Cardana;
+  margin-top: 90px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Moves element by margin-right & left of 370px, background image of linear-gradient skyblue-powderblue, top margin of 90px and a 1px black solid border. */
+
+.messages19 {
+  margin-left: 400px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right:400px;
+  font-family: Cardana;
+  margin-top: 80px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Moves element by margin-right & left of 400px, background image of linear-gradient skyblue-powderblue, top margin of 80px and a 1px black solid border. */
+
+.thankyou1{
+  margin-top: 50px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Moves thank you image element by 50px margin-top. */
+
+.textcolor {
+  color: #003333;
+  font-family: Candara;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets text color to #003333 and font-family to Candara. */
+
+.textcolorqq12 {
+  color: #003333;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Sets text color to #003333, aligns to center, background image of linear-gradient skyblue-powderblue, 1px solid black border and font-family to Candara. */
+
+.textcolorqq12b {
+  color: #003333;
+  font-family: Candara;
+  text-align: center;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets text color to #003333, aligns text to center and font-family to Candara. */
+
+.textcolorqq1201 {
+  color: #003333;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Sets text color to #003333, aligns to center, background image of linear-gradient skyblue-powderblue, 1px solid black border and font-family to Candara. Margins for element is moved left & right of 150px. */
+
+.textcolorx {
+  color: #003333;
+  font-family: Candara;
+  text-align: center;
+  margin-bottom: 0.0000000000000002px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets text color to #003333 and font-family to Candara. */
+
+.textcolorqq129 {
+  color: #003333;
+  font-family: Candara;
+  text-align: center;
+  border:1px solid;
+}
+/*  Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets text color to #003333, aligns text to center and font-family to Candara. Adds a 1px black solid border.	 */
+
+.headcolor {
+  color: #003366;
+  font-family: Candara;
+  text-decoration: underline;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Sets text color to #003366, Candara font-family is set and an underline is added. */
+
+.headcoloryy {
+  color: #003366;
+  font-family: Candara;
+  text-decoration: underline;
+  text-align:center;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets element color to #003366, Candara font-family is set, texts aligned to center, and underline is added. */
+
+.image1 {
+  border: 1px solid;
+  margin-left: 250px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 250px margin left and a 1px black solid border is set. */
+
+.image3 {
+  border: 1px solid;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 80px left, 150px margin left and a 1px black solid border is set. */
+
+.image26 {
+  border: 1px solid;
+  margin-top: 0.0000000000000000000000004px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by top margin of 0.0000000000000000000000004px, and 1px solid black border is set. */
+
+.image4 {
+  border: 1px solid;
+  margin-left:480px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by 480px margin left and a 1px black solid border is set. */
+
+.image5 {
+  border: 1px solid;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left:350px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 350px margin left, margin top & bottom of 50px and a 1px black solid border is set. */
+
+.move1001 {
+  border: 1px solid;
+  margin-left: 350px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 350px margin left, margin top of 50px and margin right of 80px and a 1px black solid border is set. */
+
+.move1001xx {
+  border: 1px solid;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by 300px margin left and margin-top of 50px and a 1px black solid border is set. */
+
+.move10016 {
+  border: 1px solid;
+  margin-left: 450px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 450px margin left, top by 50px and right by 80px and a 1px black solid border is set. */
+
+.move1023 {
+  border: 1px solid;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 450px margin left, 30px to the top and a 1px black solid border is set. */
+
+.move10231 {
+  border: 1px solid;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 450px margin left, 30px top and bottom by 50px and a 1px black solid border is set. */
+
+.move10010 {
+  border: 1px solid;
+  margin-left: 250px;
+  margin-right: 90px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 250px margin left and 90px margin right and a 1px black solid border is set. */
+
+.move1008 {
+  border: 1px solid;
+  margin-bottom: 20px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by top 50px, bottom 20px and 450px margin left and a 1px black solid border is set. */
+
+.move10039 {
+  border: 1px solid;
+  margin-left: 448px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 448px margin left and a 1px black solid border is set. */
+
+.move1003 {
+  border: 1px solid;
+  margin-bottom: 20px;
+  margin-left: 452px;
+  margin-top: 20px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 452px margin left, 20 px margin top and bottom and a 1px black solid border is set. */
+
+.image9 {
+  border: 1px solid;
+  margin-bottom: 50px;
+  margin-left: 440px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by 440px margin left, bottom by 50px and a 1px black solid border is set. */
+
+.image15 {
+  border: 1px solid;
+  margin-left: 251px;
+  margin-right: 70px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 251px margin left and 70px margin right and a 1px black solid border is set. */
+
+.image16 {
+  border: 1px solid;
+  margin-right: 103px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 103px margin right and a 1px black solid border is set. */
+
+.image18 {
+  border: 1px solid;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 220px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 40px top and 10px bottom, 220px margin left and a 1px black solid border is set. */
+
+.image21 {
+  border: 1px solid;
+  margin-bottom: 0.00000000000000008px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 0.00000000000000008px margin bottom and a 1px black solid border is set. */
+
+.move10020 {
+  border: 1px solid;
+  margin-right: 70px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by 70px margin left and a 1px black solid border is set. */
+
+.move1007 {
+  border: 1px solid; 
+  margin-right: 0.00000000000000008px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: Element is moved by margin-bottom: 0.00000000000000008px margin left and a 1px black solid border is set. */
+
+
+.hiringheading {
+  margin-top:20px;
+}
+/*-- Owner: Jeonghyeok Seo
+     Date: November 19, 2020
+     Description: Element is moved by 20px margin left. */
+  
+.headcolor9106nn {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 528px;
+  margin-left: 528px;
+  margin-top: 65px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 528px, 528px margin left and moved 65px margin-top.  */
+
+.headcolor9106bb {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 540px;
+  margin-left: 540px;
+  margin-top: 100px;  
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 540px, 540px margin left and moved 100px margin-top.  */
+
+.headcolor9106 {
+  color: #003366;
+  font-family: Candara;
+  text-align: center;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+  margin-right: 502px;
+  margin-left: 502px;
+  margin-top: 150px;  
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 502px, 502px margin left and moved 150px margin-top.  */
+ 
+.event1{
+  margin-top: 56px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: Element is moved by 56px margin top. */
+
+.moveman {
+  margin-top: 250px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: Element is moved by 200px margin top and bottom by 53px. */
+
+.headcolor192 {
+  margin-top:40px;
+  text-align:center;
+  margin-bottom: 51px;
+}
+/*  Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: Element is moved by 51px margin bottom, top by 40px and text aligned to center.	 */
+
+.move99hg {
+  margin-bottom:43px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 43px bottom margin. */
+
+.move99 {
+  margin-bottom:11px;
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: Element is moved by 11px bottom margin. */
+
+.move991 {
+  margin-bottom:51px;
+  margin-top: 42px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 51px margin bottom and top by 42px. */
+
+.headcolor009 {
+  text-align:center;
+  color: #003366;
+  font-family: Candara;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 60px;
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+}
+/*-- Owner: Hyerin Mun
+     Date: November 19, 2020
+     Description: This code is used for the title headers, inlcude adding a Candara font-family, aligned to center, color is set as #003366, border around element with 1px and solid, background image of linear-gradient skyblue-powderblue. Element is moved by margin-right of 400px, 400px margin left and moved 60px margin-top.  */
+
+.move00 {
+  margin-top: 62px;
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Element is moved by 62px margin top. */
+
+.set2 {
+  margin-left:250px;
+  margin-top: 41px;
+}
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 250px margin left and 41px margin top. */
+
+.move111 {
+  border: 1px solid;
+  background-image: linear-gradient(skyblue, powderblue);
+}
+/*-- Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Sets a 1px black solid border and background image of linear-gradient skyblue-powderblue. */
+
+.contentcolor{
+  color: #003333;
+  font-family: Candara;
+  margin-left: 30px;
+ }
+/*-- Owner: Samir Imamovic
+     Date: November 19, 2020
+     Description: Element is moved by 30px margin left, font-family set to Candara and color set to #003333. */
+
+.contactheading {
+  margin-top: 49px;
+ }
+/*  Owner: Gowsigan Sritharan 
+     Date: November 19, 2020
+     Description: Moving element by margin-top 49px.	 */
